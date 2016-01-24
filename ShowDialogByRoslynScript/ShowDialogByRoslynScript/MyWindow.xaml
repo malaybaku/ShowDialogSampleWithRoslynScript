@@ -1,0 +1,10 @@
+﻿<Window x:Class="DialogSample.MyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Height="200" Width="300">
+    <StackPanel Margin="50">
+        <TextBox x:Name="textBox"/>
+        <CheckBox x:Name="checkBox" Content="男性"/>
+        <Button Content="OK" Click="OnOKButtonClick"/>
+    </StackPanel>
+</Window>
